@@ -44,20 +44,7 @@ if($query){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-<style media="screen">
-  .col-sm-4{
-    padding:10px;
-    margin:10px;
-  }
-  h1{
-    text-align:center;
-  }
-  .menu{
-    background:#17a2b8;
-    padding:10px;
-    color:white;
-  }
-</style>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -339,26 +326,8 @@ if(isset($msg)){
   </h1>
 
 </div>
-<script type="text/javascript">
-function myFunction1(){
-      r=confirm("By Cheking this your previus data will be erazed");
-      if(r==true){
-document.getElementById("one").checked = true;
-      }
-      if(r==false){
-document.getElementById("one").checked = false;
-      }
-}
+<script type="text/javascript" src="script.js">
 
-function myFunction2(){
-      r=confirm("By Cheking this your previus data will be erazed");
-      if(r==true){
-document.getElementById("two").checked = true;
-      }
-      if(r==false){
-document.getElementById("two").checked = false;
-      }
-}
 </script>
 </body>
 </html>
