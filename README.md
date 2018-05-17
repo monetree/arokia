@@ -17,6 +17,6 @@
         style.css
         README.md
         .git
-        
+
 #git hub repository link:
         https://github.com/monetree/arokia

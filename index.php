@@ -1,5 +1,9 @@
 <?php
 $con=mysqli_connect('localhost','root','Admin619','arokia');
+if(!isset($case1data) or !isset($case2data)){
+error_reporting(0);
+}
+
 ?>
 <?php
 extract($_POST);
