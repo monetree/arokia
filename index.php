@@ -50,7 +50,6 @@ if($query){
 <body>
 <div class="menu">
   <h1>Coding Challange</h1>
-  <!-- <a href="version2.php" style="float:right;margin-top:-1cm;color:white;">Version two</a> -->
 </div>
 <div class="container">
 <div class="row">
@@ -67,32 +66,18 @@ if($query){
     <div class="form-check-inline">
       <label class="form-check-label">
         <input type="checkbox" name="case1data[]" class="form-check-input" value="1"
-
-        <?php
-        // if(isset($_POST['case1data']) && isset($_POST['caseOne']))
-        // echo $_POST['case1data'];
-         // echo "checked='checked'";
-          ?>
          >1
       </label>
     </div>
     <div class="form-check-inline">
       <label class="form-check-label">
         <input type="checkbox" class="form-check-input" name="case1data[]" value="2"
-        <?php
-        // if(isset($_POST['case1data']) && isset($_POST['caseOne']))
-        //  echo "checked='checked'";
-          ?>
           >2
       </label>
     </div>
     <div class="form-check-inline">
       <label class="form-check-label">
         <input type="checkbox" class="form-check-input" value="3" name="case1data[]"
-        <?php
-        // if(isset($_POST['case1data']) && isset($_POST['caseOne']))
-        //  echo "checked='checked'";
-          ?>
         >3
       </label>
     </div>
@@ -100,41 +85,18 @@ if($query){
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case1data[]" value="4"
-    <?php
-
-    if(isset($_POST['case1data']) && isset($_POST['caseOne'])){
-    $data = $_POST['case1data'];
-    if($data==4)
-     echo "checked='checked'";
-   }
-
-      ?>
     >4
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case1data[]" value="5"
-    <?php
-   //  if(isset($_POST['case1data']) && isset($_POST['caseOne'])){
-   //  $data = $_POST['case1data'];
-   //  if($data==5)
-   //   echo "checked='checked'";
-   // }
-      ?>
     >5
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case1data[]" value="6"
-    <?php
-   //  if(isset($_POST['case1data']) && isset($_POST['caseOne'])){
-   //  $data = $_POST['case1data'];
-   //  if($data==6)
-   //   echo "checked='checked'";
-   // }
-      ?>
     >6
   </label>
 </div>
@@ -142,31 +104,18 @@ if($query){
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case1data[]" value="7"
-    <?php
-    // if(isset($_POST['case1data']) && isset($_POST['caseOne']))
-    //  echo "checked='checked'";
-
-      ?>
     >7
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case1data[]" value="8"
-    <?php
-    // if(isset($_POST['case1data']) && isset($_POST['caseOne']))
-    //  echo "checked='checked'";
-      ?>
     >8
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case1data[]" value="9"
-    <?php
-    // if(isset($_POST['case1data']) && isset($_POST['caseOne']))
-    //  echo "checked='checked'";
-      ?>
     >9
   </label>
 </div>
@@ -202,30 +151,18 @@ if($query){
     <div class="form-check-inline">
       <label class="form-check-label">
         <input type="checkbox" name="case2data[]" class="form-check-input" value="1"
-        <?php
-        // if(isset($_POST['one']) && isset($_POST['caseTwo']))
-        //  echo "checked='checked'";
-          ?>
          >1
       </label>
     </div>
     <div class="form-check-inline">
       <label class="form-check-label">
         <input type="checkbox" class="form-check-input" name="case2data[]" value="2"
-        <?php
-        // if(isset($_POST['two']) && isset($_POST['caseTwo']))
-        //  echo "checked='checked'";
-          ?>
           >2
       </label>
     </div>
     <div class="form-check-inline">
       <label class="form-check-label">
         <input type="checkbox" class="form-check-input" value="3" name="case2data[]"
-        <?php
-        // if(isset($_POST['three']) && isset($_POST['caseTwo']))
-        //  echo "checked='checked'";
-          ?>
         >3
       </label>
     </div>
@@ -233,30 +170,19 @@ if($query){
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case2data[]" value="4"
-    <?php
-    // if(isset($_POST['four']) && isset($_POST['caseTwo']))
-    //  echo "checked='checked'";
-      ?>
     >4
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case2data[]" value="5"
-    <?php
-    // if(isset($_POST['five']) && isset($_POST['caseTwo']))
-    //  echo "checked='checked'";
-      ?>
+
     >5
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case2data[]" value="6"
-    <?php
-    // if(isset($_POST['six']) && isset($_POST['caseTwo']))
-    //  echo "checked='checked'";
-      ?>
     >6
   </label>
 </div>
@@ -264,30 +190,18 @@ if($query){
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case2data[]" value="7"
-    <?php
-    // if(isset($_POST['seven']) && isset($_POST['caseTwo']))
-    //  echo "checked='checked'";
-      ?>
     >7
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case2data[]" value="8"
-    <?php
-    // if(isset($_POST['eight']) && isset($_POST['caseTwo']))
-    //  echo "checked='checked'";
-      ?>
     >8
   </label>
 </div>
 <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" name="case2data[]" value="9"
-    <?php
-    // if(isset($_POST['nine']) && isset($_POST['caseTwo']))
-    //  echo "checked='checked'";
-      ?>
     >9
   </label>
 </div>
